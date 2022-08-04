@@ -24,7 +24,7 @@ run ```make``` command
 
 Navigate to main program directory: ```cd ..```
 
-Run program with ```Matrix-Multiplication Input1A.txt Input2A.txt OutputFile.txt``` where 
+Run program with ```Matrix-Multiplication Input1A.txt Input1B.txt OutputFile.txt``` where 
 the arguments are replaced with your input and output files... (The above command can
 be copied and pasted, the files specified already exist).
 
