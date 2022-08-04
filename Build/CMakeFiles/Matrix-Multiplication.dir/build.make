@@ -83,30 +83,30 @@ CMakeFiles/Matrix-Multiplication.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Matrix-Multiplication.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/main.cpp" -o CMakeFiles/Matrix-Multiplication.dir/main.cpp.s
 
-CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o: CMakeFiles/Matrix-Multiplication.dir/flags.make
-CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o: ../multiply.cpp
-CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o: CMakeFiles/Matrix-Multiplication.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o -MF CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o.d -o CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o -c "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/multiply.cpp"
+CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o: CMakeFiles/Matrix-Multiplication.dir/flags.make
+CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o: ../matrix.cpp
+CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o: CMakeFiles/Matrix-Multiplication.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o -MF CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o.d -o CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o -c "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/matrix.cpp"
 
-CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/multiply.cpp" > CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.i
+CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/matrix.cpp" > CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.i
 
-CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/multiply.cpp" -o CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.s
+CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/matrix.cpp" -o CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.s
 
 # Object files for target Matrix-Multiplication
 Matrix__Multiplication_OBJECTS = \
 "CMakeFiles/Matrix-Multiplication.dir/main.cpp.o" \
-"CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o"
+"CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o"
 
 # External object files for target Matrix-Multiplication
 Matrix__Multiplication_EXTERNAL_OBJECTS =
 
 ../Matrix-Multiplication: CMakeFiles/Matrix-Multiplication.dir/main.cpp.o
-../Matrix-Multiplication: CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o
+../Matrix-Multiplication: CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o
 ../Matrix-Multiplication: CMakeFiles/Matrix-Multiplication.dir/build.make
 ../Matrix-Multiplication: CMakeFiles/Matrix-Multiplication.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/josh/Desktop/Matrix Multiplication/Matrix-Multiplication/Build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../Matrix-Multiplication"

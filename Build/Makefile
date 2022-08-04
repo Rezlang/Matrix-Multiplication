@@ -153,29 +153,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-multiply.o: multiply.cpp.o
-.PHONY : multiply.o
+matrix.o: matrix.cpp.o
+.PHONY : matrix.o
 
 # target to build an object file
-multiply.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.o
-.PHONY : multiply.cpp.o
+matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.o
+.PHONY : matrix.cpp.o
 
-multiply.i: multiply.cpp.i
-.PHONY : multiply.i
+matrix.i: matrix.cpp.i
+.PHONY : matrix.i
 
 # target to preprocess a source file
-multiply.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.i
-.PHONY : multiply.cpp.i
+matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.i
+.PHONY : matrix.cpp.i
 
-multiply.s: multiply.cpp.s
-.PHONY : multiply.s
+matrix.s: matrix.cpp.s
+.PHONY : matrix.s
 
 # target to generate assembly for a file
-multiply.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/multiply.cpp.s
-.PHONY : multiply.cpp.s
+matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Matrix-Multiplication.dir/build.make CMakeFiles/Matrix-Multiplication.dir/matrix.cpp.s
+.PHONY : matrix.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... multiply.o"
-	@echo "... multiply.i"
-	@echo "... multiply.s"
+	@echo "... matrix.o"
+	@echo "... matrix.i"
+	@echo "... matrix.s"
 .PHONY : help
 
 
